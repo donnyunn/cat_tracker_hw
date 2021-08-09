@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ali_Connector)(type Legacy)(uri ${KIPRJMOD}/lib/ali_Connector/ali_Connector.lib)(options "")(descr ""))
+  (lib (name add_LDO)(type Legacy)(uri ${KIPRJMOD}/lib/add_LDO/add_LDO.lib)(options "")(descr ""))
+)

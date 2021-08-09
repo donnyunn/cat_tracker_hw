@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ali_Connector)(type KiCad)(uri ${KIPRJMOD}/lib/ali_Connector/ali_Connector.pretty)(options "")(descr ""))
+  (lib (name ali_Switch)(type KiCad)(uri ${KIPRJMOD}/lib/ali_Switch/ali_Switch.pretty)(options "")(descr ""))
+)
