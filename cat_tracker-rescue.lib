@@ -1,51 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# add_LDO_NCP187
+# +3.3V-power
 #
-DEF add_LDO_NCP187 U 0 40 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
-F1 "add_LDO_NCP187" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 200 50 -1799 -1 0 1 0 N -50 200 50 200
-S -200 200 200 -150 0 1 0 f
-X IN 1 -300 100 100 R 50 50 1 1 I
-X EN 2 -300 0 100 R 50 50 1 1 I
-X GND 3 -300 -100 100 R 50 50 1 1 I
-X PG 4 300 -100 100 L 50 50 1 1 I
-X SNS 5 300 0 100 L 50 50 1 1 I
-X OUT 6 300 100 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# ali_Connector_USB_CType_6Pin
-#
-DEF ali_Connector_USB_CType_6Pin U 0 40 Y Y 1 F N
-F0 "U" -400 400 50 H V C CNN
-F1 "ali_Connector_USB_CType_6Pin" -350 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -550 -200 50 0 1 0 N
-C -550 200 50 0 1 0 N
-S -750 200 -700 -200 0 1 0 N
-S 0 350 -800 -350 0 1 0 N
-X GND A12 200 250 200 L 50 50 1 1 I
-X CC1 A5 200 50 200 L 50 50 1 1 I
-X VBUS A9 200 150 200 L 50 50 1 1 I
-X GND B12 200 -250 200 L 50 50 1 1 I
-X CC2 B5 200 -50 200 L 50 50 1 1 I
-X VBUS B9 200 -150 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# cat_tracker-rescue_+3.3V-power
-#
-DEF cat_tracker-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "cat_tracker-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -56,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_C-Device
+# C-Device
 #
-DEF cat_tracker-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "cat_tracker-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -74,11 +34,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF cat_tracker-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "cat_tracker-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -93,11 +53,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_Conn_01x04-Connector_Generic
+# Conn_01x04-Connector_Generic
 #
-DEF cat_tracker-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "cat_tracker-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -116,11 +76,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_D_Schottky-Device
+# D_Schottky-Device
 #
-DEF cat_tracker-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF D_Schottky-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "cat_tracker-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "D_Schottky-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,11 +98,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_ESP32-WROOM-32D-RF_Module
+# ESP32-WROOM-32D-RF_Module
 #
-DEF cat_tracker-rescue_ESP32-WROOM-32D-RF_Module U 0 20 Y Y 1 F N
+DEF ESP32-WROOM-32D-RF_Module U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "cat_tracker-rescue_ESP32-WROOM-32D-RF_Module" 50 1350 50 H V L CNN
+F1 "ESP32-WROOM-32D-RF_Module" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -192,11 +152,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_Earth-power
+# Earth-power
 #
-DEF cat_tracker-rescue_Earth-power #PWR 0 0 Y Y 1 F P
+DEF Earth-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "cat_tracker-rescue_Earth-power" 0 -150 50 H I C CNN
+F1 "Earth-power" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -208,11 +168,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_LED-Device
+# LED-Device
 #
-DEF cat_tracker-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "cat_tracker-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -231,11 +191,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_MCP73831-2-OT-Battery_Management
+# MCP73831-2-OT-Battery_Management
 #
-DEF cat_tracker-rescue_MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
+DEF MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "cat_tracker-rescue_MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
+F1 "MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -150 -50 50 H I C CNN
 $FPLIST
@@ -251,11 +211,11 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_MPU-6050-Sensor_Motion
+# MPU-6050-Sensor_Motion
 #
-DEF cat_tracker-rescue_MPU-6050-Sensor_Motion U 0 20 Y Y 1 F N
+DEF MPU-6050-Sensor_Motion U 0 20 Y Y 1 F N
 F0 "U" -450 550 50 H V C CNN
-F1 "cat_tracker-rescue_MPU-6050-Sensor_Motion" 300 -550 50 H V C CNN
+F1 "MPU-6050-Sensor_Motion" 300 -550 50 H V C CNN
 F2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" 0 -800 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 $FPLIST
@@ -279,11 +239,11 @@ X AD0 9 -700 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_R-Device
+# R-Device
 #
-DEF cat_tracker-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "cat_tracker-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -296,11 +256,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_SW_Push-Switch
+# SW_Push-Switch
 #
-DEF cat_tracker-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "cat_tracker-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
