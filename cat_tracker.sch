@@ -578,10 +578,6 @@ F 3 "~" H 8150 4250 50  0001 C CNN
 	1    8150 4250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8150 4400 8150 4500
-Wire Wire Line
-	8150 4500 8250 4500
 $Comp
 L cat_tracker-rescue:R-Device R6
 U 1 1 6113BEA6
@@ -607,10 +603,6 @@ $EndComp
 Wire Wire Line
 	8050 4100 8150 4100
 Connection ~ 8050 4100
-Wire Wire Line
-	8050 4400 8050 4500
-Wire Wire Line
-	8050 4600 8250 4600
 $Comp
 L cat_tracker-rescue:R-Device R9
 U 1 1 6113DF4F
@@ -690,14 +682,6 @@ Wire Wire Line
 	8150 4700 8250 4700
 Text GLabel 7900 4600 0    50   Input ~ 0
 SCL
-Wire Wire Line
-	7900 4600 8050 4600
-Connection ~ 8050 4600
-Wire Wire Line
-	7900 4500 8050 4500
-Connection ~ 8050 4500
-Wire Wire Line
-	8050 4500 8050 4600
 Text GLabel 9850 4500 2    50   Input ~ 0
 INT
 $Comp
@@ -909,4 +893,18 @@ F 3 "~" H 3000 3600 50  0001 C CNN
 $EndComp
 Text GLabel 3300 3300 2    50   Input ~ 0
 BOOT
+Wire Wire Line
+	7900 4500 8150 4500
+Wire Wire Line
+	7900 4600 8050 4600
+Wire Wire Line
+	8050 4400 8050 4600
+Connection ~ 8050 4600
+Wire Wire Line
+	8050 4600 8250 4600
+Wire Wire Line
+	8150 4400 8150 4500
+Connection ~ 8150 4500
+Wire Wire Line
+	8150 4500 8250 4500
 $EndSCHEMATC
