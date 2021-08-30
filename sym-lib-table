@@ -2,4 +2,5 @@
   (lib (name ali_Connector)(type Legacy)(uri ${KIPRJMOD}/lib/ali_Connector/ali_Connector.lib)(options "")(descr ""))
   (lib (name add_LDO)(type Legacy)(uri ${KIPRJMOD}/lib/add_LDO/add_LDO.lib)(options "")(descr ""))
   (lib (name cat_tracker-rescue)(type Legacy)(uri ${KIPRJMOD}/cat_tracker-rescue.lib)(options "")(descr ""))
+  (lib (name MIC531833YD5TR)(type Legacy)(uri ${KIPRJMOD}/lib/MIC531833YD5TR/MIC531833YD5TR.lib)(options "")(descr ""))
 )
