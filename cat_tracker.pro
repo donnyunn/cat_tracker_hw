@@ -1,4 +1,4 @@
-update=2021-08-20 오전 11:42:24
+update=2021-09-08 오후 6:41:19
 version=1
 last_client=kicad
 [general]
@@ -35,9 +35,9 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkTextSizeV=0.7
+SilkTextSizeH=0.7
+SilkTextSizeThickness=0.09999999999999999
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -238,8 +238,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=pwr
-Clearance=0.4
-TrackWidth=0.5
+Clearance=0.35
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
