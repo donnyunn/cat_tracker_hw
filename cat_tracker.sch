@@ -693,7 +693,7 @@ L cat_tracker-rescue:C-Device C7
 U 1 1 6116473C
 P 1800 3450
 F 0 "C7" H 1915 3496 50  0000 L CNN
-F 1 "100n" H 1915 3405 50  0000 L CNN
+F 1 "1u" H 1915 3405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1838 3300 50  0001 C CNN
 F 3 "~" H 1800 3450 50  0001 C CNN
 	1    1800 3450
@@ -704,7 +704,7 @@ L cat_tracker-rescue:R-Device R5
 U 1 1 61164D5E
 P 1950 3300
 F 0 "R5" V 1850 3250 50  0000 L CNN
-F 1 "100" V 1950 3300 50  0000 C CNN
+F 1 "10k" V 1950 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1880 3300 50  0001 C CNN
 F 3 "~" H 1950 3300 50  0001 C CNN
 	1    1950 3300
@@ -725,53 +725,6 @@ $EndComp
 Text GLabel 2200 3300 2    50   Input ~ 0
 EN
 Text GLabel 6150 3300 2    50   Input ~ 0
-BOOT
-$Comp
-L cat_tracker-rescue:SW_Push-Switch SW2
-U 1 1 6116806C
-P 2800 3300
-F 0 "SW2" H 2800 3585 50  0000 C CNN
-F 1 "EN Btn" H 2800 3494 50  0000 C CNN
-F 2 "ali_Switch:NW3-A03-05" H 2800 3500 50  0001 C CNN
-F 3 "~" H 2800 3500 50  0001 C CNN
-	1    2800 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L cat_tracker-rescue:C-Device C8
-U 1 1 6116807A
-P 3000 3450
-F 0 "C8" H 3115 3496 50  0000 L CNN
-F 1 "100n" H 3115 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 3300 50  0001 C CNN
-F 3 "~" H 3000 3450 50  0001 C CNN
-	1    3000 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L cat_tracker-rescue:R-Device R6
-U 1 1 61168080
-P 3150 3300
-F 0 "R6" V 3050 3250 50  0000 L CNN
-F 1 "1k" V 3150 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3080 3300 50  0001 C CNN
-F 3 "~" H 3150 3300 50  0001 C CNN
-	1    3150 3300
-	0    1    1    0   
-$EndComp
-Connection ~ 3000 3300
-$Comp
-L cat_tracker-rescue:Earth-power #PWR020
-U 1 1 61168087
-P 3000 3600
-F 0 "#PWR020" H 3000 3350 50  0001 C CNN
-F 1 "Earth" H 3000 3450 50  0001 C CNN
-F 2 "" H 3000 3600 50  0001 C CNN
-F 3 "~" H 3000 3600 50  0001 C CNN
-	1    3000 3600
-	1    0    0    -1  
-$EndComp
-Text GLabel 3400 3300 2    50   Input ~ 0
 BOOT
 Wire Wire Line
 	7900 4500 8150 4500
@@ -798,75 +751,6 @@ F 3 "~" H 1400 3300 50  0001 C CNN
 	1    1400 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L cat_tracker-rescue:Earth-power #PWR018
-U 1 1 612CA101
-P 2600 3300
-F 0 "#PWR018" H 2600 3050 50  0001 C CNN
-F 1 "Earth" H 2600 3150 50  0001 C CNN
-F 2 "" H 2600 3300 50  0001 C CNN
-F 3 "~" H 2600 3300 50  0001 C CNN
-	1    2600 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L cat_tracker-rescue:R-Device R3
-U 1 1 612CA921
-P 2150 3100
-F 0 "R3" V 2050 3050 50  0000 L CNN
-F 1 "100k" V 2150 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 3100 50  0001 C CNN
-F 3 "~" H 2150 3100 50  0001 C CNN
-	1    2150 3100
-	-1   0    0    1   
-$EndComp
-$Comp
-L cat_tracker-rescue:+3.3V-power #PWR014
-U 1 1 612CB2E7
-P 2150 2950
-F 0 "#PWR014" H 2150 2800 50  0001 C CNN
-F 1 "+3.3V" V 2165 3078 50  0000 L CNN
-F 2 "" H 2150 2950 50  0001 C CNN
-F 3 "" H 2150 2950 50  0001 C CNN
-	1    2150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L cat_tracker-rescue:R-Device R4
-U 1 1 612CD059
-P 3350 3100
-F 0 "R4" V 3250 3050 50  0000 L CNN
-F 1 "100k" V 3350 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3280 3100 50  0001 C CNN
-F 3 "~" H 3350 3100 50  0001 C CNN
-	1    3350 3100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3350 3250 3350 3300
-Wire Wire Line
-	3350 3300 3300 3300
-Wire Wire Line
-	3350 3300 3400 3300
-Connection ~ 3350 3300
-$Comp
-L cat_tracker-rescue:+3.3V-power #PWR015
-U 1 1 612D041F
-P 3350 2950
-F 0 "#PWR015" H 3350 2800 50  0001 C CNN
-F 1 "+3.3V" V 3365 3078 50  0000 L CNN
-F 2 "" H 3350 2950 50  0001 C CNN
-F 3 "" H 3350 2950 50  0001 C CNN
-	1    3350 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 3300 2150 3300
-Wire Wire Line
-	2150 3250 2150 3300
-Connection ~ 2150 3300
-Wire Wire Line
-	2150 3300 2100 3300
 Wire Wire Line
 	4400 1000 4800 1000
 $Comp
@@ -941,28 +825,6 @@ F 3 "~" H 5400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:SW_Push-Switch SW3
-U 1 1 612E8D33
-P 2350 5650
-F 0 "SW3" H 2350 5935 50  0000 C CNN
-F 1 "EN Btn" H 2350 5844 50  0000 C CNN
-F 2 "ali_Switch:NW3-A03-05" H 2350 5850 50  0001 C CNN
-F 3 "~" H 2350 5850 50  0001 C CNN
-	1    2350 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L cat_tracker-rescue:C-Device C13
-U 1 1 612EAA0C
-P 2550 5800
-F 0 "C13" H 2665 5846 50  0000 L CNN
-F 1 "100n" H 2665 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2588 5650 50  0001 C CNN
-F 3 "~" H 2550 5800 50  0001 C CNN
-	1    2550 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L cat_tracker-rescue:Earth-power #PWR038
 U 1 1 612EB5D1
 P 2550 5950
@@ -971,29 +833,6 @@ F 1 "Earth" H 2550 5800 50  0001 C CNN
 F 2 "" H 2550 5950 50  0001 C CNN
 F 3 "~" H 2550 5950 50  0001 C CNN
 	1    2550 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L cat_tracker-rescue:R-Device R12
-U 1 1 612EBF4E
-P 2700 5650
-F 0 "R12" V 2600 5600 50  0000 L CNN
-F 1 "1k" V 2700 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2630 5650 50  0001 C CNN
-F 3 "~" H 2700 5650 50  0001 C CNN
-	1    2700 5650
-	0    1    1    0   
-$EndComp
-Connection ~ 2550 5650
-$Comp
-L cat_tracker-rescue:+3.3V-power #PWR036
-U 1 1 612EC7BC
-P 2150 5650
-F 0 "#PWR036" H 2150 5500 50  0001 C CNN
-F 1 "+3.3V" V 2165 5778 50  0000 L CNN
-F 2 "" H 2150 5650 50  0001 C CNN
-F 3 "" H 2150 5650 50  0001 C CNN
-	1    2150 5650
 	1    0    0    -1  
 $EndComp
 Text GLabel 6150 4500 2    50   Input ~ 0
@@ -1041,4 +880,75 @@ Text GLabel 5400 1600 3    50   Input ~ 0
 CHRG
 Text GLabel 6150 4400 2    50   Input ~ 0
 CHRG
+Wire Wire Line
+	2100 3300 2200 3300
+$Comp
+L cat_tracker-rescue:C-Device C13
+U 1 1 612EAA0C
+P 2550 5800
+F 0 "C13" H 2665 5846 50  0000 L CNN
+F 1 "100n" H 2665 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2588 5650 50  0001 C CNN
+F 3 "~" H 2550 5800 50  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cat_tracker-rescue:SW_Push-Switch SW3
+U 1 1 612E8D33
+P 2350 5650
+F 0 "SW3" H 2350 5935 50  0000 C CNN
+F 1 "Btn" H 2350 5844 50  0000 C CNN
+F 2 "ali_Switch:NW3-A03-05" H 2350 5850 50  0001 C CNN
+F 3 "~" H 2350 5850 50  0001 C CNN
+	1    2350 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 5650
+$Comp
+L cat_tracker-rescue:R-Device R12
+U 1 1 612EBF4E
+P 2700 5650
+F 0 "R12" V 2600 5600 50  0000 L CNN
+F 1 "1k" V 2700 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2630 5650 50  0001 C CNN
+F 3 "~" H 2700 5650 50  0001 C CNN
+	1    2700 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L cat_tracker-rescue:+3.3V-power #PWR036
+U 1 1 612EC7BC
+P 2150 5650
+F 0 "#PWR036" H 2150 5500 50  0001 C CNN
+F 1 "+3.3V" V 2165 5778 50  0000 L CNN
+F 2 "" H 2150 5650 50  0001 C CNN
+F 3 "" H 2150 5650 50  0001 C CNN
+	1    2150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 6144C273
+P 2900 3300
+F 0 "TP?" H 2900 3495 50  0000 C CNN
+F 1 "TestPoint_2Pole" H 2900 3404 50  0000 C CNN
+F 2 "" H 2900 3300 50  0001 C CNN
+F 3 "~" H 2900 3300 50  0001 C CNN
+	1    2900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cat_tracker-rescue:Earth-power #PWR?
+U 1 1 6144CA62
+P 2700 3300
+F 0 "#PWR?" H 2700 3050 50  0001 C CNN
+F 1 "Earth" H 2700 3150 50  0001 C CNN
+F 2 "" H 2700 3300 50  0001 C CNN
+F 3 "~" H 2700 3300 50  0001 C CNN
+	1    2700 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 3300 2    50   Input ~ 0
+BOOT
 $EndSCHEMATC

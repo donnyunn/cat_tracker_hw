@@ -1,6 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_TestPoint_2Pole
+#
+DEF Connector_TestPoint_2Pole TP 0 30 Y N 1 F N
+F0 "TP" 0 60 50 H V C CNN
+F1 "Connector_TestPoint_2Pole" 0 -70 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C -70 0 30 0 1 0 N
+C 70 0 30 0 1 0 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # MIC531833YD5TR_MIC5318-3.3YD5-TR
 #
 DEF MIC531833YD5TR_MIC5318-3.3YD5-TR U 0 10 Y Y 1 L N
