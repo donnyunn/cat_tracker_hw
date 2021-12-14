@@ -1,0 +1,23 @@
+### Module positions - created on 12/13/21 15:33:24 ###
+### Printed by Pcbnew version kicad (5.1.10)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                              PosX       PosY       Rot  Side
+C3        10u          C_0603_1608Metric                 33.5000   -33.0000  270.0000  bottom
+C5        100n         C_0603_1608Metric                 61.0000   -32.5000  270.0000  bottom
+C7        100n         C_0603_1608Metric                 62.5000   -44.5000    0.0000  bottom
+C8        10n          C_0603_1608Metric                 46.5000   -33.0000    0.0000  bottom
+C9        100n         C_0603_1608Metric                 46.5000   -37.0000    0.0000  bottom
+C10       100n         C_0603_1608Metric                 46.5000   -35.0000  180.0000  bottom
+C11       2.2n         C_0603_1608Metric                 37.5000   -36.0000    0.0000  bottom
+C13       1u           C_0603_1608Metric                 59.0000   -47.0000    0.0000  bottom
+R2        2k           R_0603_1608Metric                 54.5000   -32.5000   90.0000  bottom
+R3        0            R_0603_1608Metric                 62.5000   -46.0000  180.0000  bottom
+R5        10k          R_0603_1608Metric                 59.0000   -45.5000    0.0000  bottom
+R6        10k          R_0603_1608Metric                 63.5000   -33.0000   90.0000  bottom
+SW1       EN_Btn       SW_SPST_B3U-1000P                 63.0000   -39.5000  270.0000  bottom
+SW2       Btn          SW_SPST_B3U-1000P                 58.0000   -43.0000  180.0000  bottom
+U1        MCP100-315D  SOT-23                            58.0000   -32.5000    0.0000  bottom
+U3        MCP73831     SOT-23-5                          51.0000   -32.5000    0.0000  bottom
+U6        MPU-6050     InvenSense_QFN-24_4x4mm_P0.5mm    42.0000   -35.0000  270.0000  bottom
+## End

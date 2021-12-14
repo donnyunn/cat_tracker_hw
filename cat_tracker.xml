@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_tracker\cat_tracker.sch</source>
+    <date>2021-12-13 오후 3:41:04</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Cat Tracker</title>
+        <company>dulab</company>
+        <rev>v0.5</rev>
+        <date>2021-10-27</date>
+        <source>cat_tracker.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>ESP32-WROOM-32E</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Espressif-Systems/ESP32-WROOM-32EM113EH2800PH3Q0?qs=sGAEpiMZZMu3sxpa5v1qrl%2FYtpu2q02IVMmJKBwXLzE%3D</datasheet>
+      <fields>
+        <field name="MPN">ESP32-WROOM-32E(M113EH2800PH3Q0)</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="ESP32-WROOM-32D-RF_Module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61108DF0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73831</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Microchip/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">MCP73831T-2ACI/OT</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="MCP73831-2-OT-Battery_Management" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6110E339</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010103</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111090E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61112178</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED/1608</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/ROHM-Semiconductor/SMLEN3WBC8W1?qs=W0yvOO0ixfGun78rr9Unsw%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">SMLEN3WBC8W1</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61114FC1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010113</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111654E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010103</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61116BD2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>tp:boot</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="cat_tracker-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111965B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111DBE3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61123213</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MPU-6050</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</footprint>
+      <datasheet>https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf</datasheet>
+      <fields>
+        <field name="MPN">MPU-6050</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="MPU-6050-Sensor_Motion" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61129188</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6112A116</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2.2n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010054</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6112EAEE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611320D5</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010140</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61134489</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>EN Btn</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6115F88F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ISP</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="cat_tracker-rescue" part="Conn_01x04-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611619C1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116473C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301011968</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61164D5E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010157</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61115A90</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EAA0C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010291</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EBF4E</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_2Pole</value>
+      <footprint>tp:boot</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6144C273</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP100-315D</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Microchip-Technology/MCP100T-315I-TT?qs=cQYLKLPzRJnnE4Sa6znIFg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">MCP100T-315I/TT</field>
+      </fields>
+      <libsource lib="Power_Supervisor" part="MCP100-315D" description="Microcontroller reset monitor, 3.15V threshold, active low output"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614BF10A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Btn</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>https://kr.mouser.com/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614CFBDB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>USB_CType_2Pin</value>
+      <footprint>ali_Connector:USB_CType_2Pin</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">USB4125-GF-A</field>
+      </fields>
+      <libsource lib="ali_Connector" part="USB_CType_2Pin" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61794BE8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010293</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617A5691</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010139</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617A6C83</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617B7CFC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>pnp</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Nexperia/BC856B215?qs=me8TqzrmIYV4nfvivgLtHg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">BC856B,215</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_BEC" description="PNP transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617B8C75</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>pnp</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Nexperia/BC856B215?qs=me8TqzrmIYV4nfvivgLtHg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">BC856B,215</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_BEC" description="PNP transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617C9179</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617C9B11</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010293</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D957D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE0323</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_tracker-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE0887</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MIC5318-3.3YD5-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Microchip-Technology/MCP1802T-3302I-OT?qs=aE5D7Pt6ky3xGZErL37L5Q%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">MCP1802T-3302I/OT</field>
+      </fields>
+      <libsource lib="MIC531833YD5TR" part="MIC5318-3.3YD5-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612D69A6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BEC">
+      <description>PNP transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC531833YD5TR" part="MIC5318-3.3YD5-TR">
+      <footprints>
+        <fp>TSOT-23-5_D5_MCH</fp>
+        <fp>TSOT-23-5_D5_MCH-M</fp>
+        <fp>TSOT-23-5_D5_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5318-3.3YD5-TR</field>
+        <field name="Footprint">TSOT-23-5_D5_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BYP" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supervisor" part="MCP100-270D">
+      <aliases>
+        <alias>MCP100-300D</alias>
+        <alias>MCP100-315D</alias>
+        <alias>MCP100-450D</alias>
+        <alias>MCP100-460D</alias>
+        <alias>MCP100-475D</alias>
+        <alias>MCP100-485D</alias>
+      </aliases>
+      <description>Microcontroller reset monitor, 2.70V threshold, active low output</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP100-270D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST" type="output"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ali_Connector" part="USB_CType_2Pin">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB_CType_2Pin</field>
+      </fields>
+      <pins>
+        <pin num="9" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="Conn_01x04-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="ESP32-WROOM-32D-RF_Module">
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32D-RF_Module</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0/IO3" type="BiDi"/>
+        <pin num="35" name="TXD0/IO1" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="MCP73831-2-OT-Battery_Management">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT-Battery_Management</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="MPU-6050-Sensor_Motion">
+      <footprints>
+        <fp>*QFN-24*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-6050-Sensor_Motion</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKIN" type="input"/>
+        <pin num="6" name="AUX_SDA" type="BiDi"/>
+        <pin num="7" name="AUX_SCL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0" type="input"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="20" name="CPOUT" type="passive"/>
+        <pin num="23" name="SCL" type="input"/>
+        <pin num="24" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cat_tracker-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MIC531833YD5TR">
+      <uri>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_tracker/lib/MIC531833YD5TR/MIC531833YD5TR.lib</uri>
+    </library>
+    <library logical="Power_Supervisor">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Supervisor.lib</uri>
+    </library>
+    <library logical="ali_Connector">
+      <uri>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_tracker/lib/ali_Connector/ali_Connector.lib</uri>
+    </library>
+    <library logical="cat_tracker-rescue">
+      <uri>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_tracker/cat_tracker-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Earth">
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U5" pin="38"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U6" pin="18"/>
+      <node ref="U5" pin="39"/>
+    </net>
+    <net code="2" name="BTN">
+      <node ref="U5" pin="12"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C12-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="BATT">
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="7" name="SCL">
+      <node ref="U5" pin="36"/>
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="8" name="SDA">
+      <node ref="U6" pin="24"/>
+      <node ref="U5" pin="33"/>
+    </net>
+    <net code="9" name="BOOT">
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="25"/>
+      <node ref="TP1" pin="2"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="J2" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="11" name="EN">
+      <node ref="U5" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(Q2-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="15" name="LED">
+      <node ref="R8" pin="2"/>
+      <node ref="U5" pin="31"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="17" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="18" name="VBUS">
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="19" name="Net-(R2-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="20" name="CHRG">
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad26)">
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad24)">
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="26" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="27" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad21)">
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="29" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="30" name="Net-(U5-Pad19)">
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="31" name="Net-(U5-Pad27)">
+      <node ref="U5" pin="27"/>
+    </net>
+    <net code="32" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="33" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="34" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="35" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="36" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="37" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="38" name="TX">
+      <node ref="J2" pin="4"/>
+      <node ref="U5" pin="35"/>
+    </net>
+    <net code="39" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="40" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="41" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="42" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="43" name="INT">
+      <node ref="U6" pin="12"/>
+      <node ref="U5" pin="37"/>
+    </net>
+    <net code="44" name="RX">
+      <node ref="U5" pin="34"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="45" name="Net-(U5-Pad32)">
+      <node ref="U5" pin="32"/>
+    </net>
+    <net code="46" name="Net-(U5-Pad30)">
+      <node ref="U5" pin="30"/>
+    </net>
+    <net code="47" name="Net-(U5-Pad29)">
+      <node ref="U5" pin="29"/>
+    </net>
+    <net code="48" name="Net-(U5-Pad28)">
+      <node ref="U5" pin="28"/>
+    </net>
+    <net code="49" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="50" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="51" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="52" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+  </nets>
+</export>
